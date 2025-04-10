@@ -66,6 +66,14 @@ Optional
 
 - [VS Code](https://code.visualstudio.com/) for an integrated development environment (IDE) and the Python extension
 - [DBeaver](https://dbeaver.io/) for querying a database
+- [uv](https://docs.astral.sh/uv/) to manage python versions
+
+> [!TIP]
+> To install `uv` on a NYC City employee Windows PC may require the following powershell commands instead of what `uv` docs say:
+> 
+>     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+>     irm https://astral.sh/uv/install.ps1 -OutFile install-uv.ps1
+>     iex .\install-uv.ps1
 
 ### Environment
 
